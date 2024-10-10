@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: rgba(99,134,166, .7);
+    background-color: rgba(69,93,115, .7);
 }
 
 #content {
@@ -15,7 +15,7 @@ header {
     color:#455d73;
 }
 
-#logo {
+.logo {
     width: 80px;
 }
 
@@ -72,15 +72,15 @@ main section {
 }
 
 .msg {
-    background-color: white;
+    background-color: #455d73;
 }
 
 .msg h2 {
-    color: #455d73;
+    color: white;
 }
 
 .msg p {
-    color: #455d73;
+    color: white;
 }
 
 footer {
