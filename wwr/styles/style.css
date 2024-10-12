@@ -85,11 +85,11 @@ main section {
 
 footer {
     background-color: #455d73;
-    color: white;
+    color: #fbd989;
 }
 
 footer a {
-    color: white;
+    color: #fbd989;
     text-decoration: none;
 }
 
@@ -100,4 +100,4 @@ footer a:hover {
 
 footer p a:hover {
     text-decoration: underline;
-} 
+}
