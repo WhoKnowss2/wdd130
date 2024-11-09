@@ -2,30 +2,30 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 
-@import url('https://fonts.googleapis.com/css?family=Ovo|Noto');
+@import url('https://fonts.googleapis.com/css?family=Corinthia|Noto');
 
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #305985;
-  --secondary-color: #12286B;
-  --accent1-color: #e5cea8;
-  --accent2-color: white;
+  --primary-color: #D9933D;
+  --secondary-color: #732002;
+  --accent1-color: #eac77b;
+  --accent2-color: #D9D9D9;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Ovo", Helvetica, sans-serif;
+  --heading-font: "Corinthia", Helvetica, sans-serif;
   --paragraph-font: "Noto", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #305985;  /* headlines on a white background */ 
+  --headline-color-on-white: #732002;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #12286B; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #305985;
-  --nav-link-color: #12286B;
-  --nav-background-color: #e5cea8;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #305985;
+  --paragraph-background-color: #D9933D;
+  --nav-link-color: #732002;
+  --nav-background-color: #D9D9D9;
+  --nav-hover-link-color: #D9933D;
+  --nav-hover-background-color: #732002;
 }
 
 
@@ -35,7 +35,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 4em;
-  font-size: 18px;
+  font-size: 24px;
   text-align: center;
 }
 img {
@@ -68,6 +68,7 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
   padding: 1em;
+  font-size: 14px;
 }
 .colors {
   width: 100%;
