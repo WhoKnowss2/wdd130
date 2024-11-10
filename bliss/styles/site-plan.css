@@ -70,6 +70,13 @@ p {
   padding: 1em;
   font-size: 14px;
 }
+
+ul {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color-on-white);
+  padding: 1em;
+  font-size: 14px;
+}
 .colors {
   width: 100%;
   min-width: 350px;
