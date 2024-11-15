@@ -26,12 +26,18 @@ header {
     margin-top: 10px;
 }
 
+.faq-title {
+    color:#455d73;
+    font-family: 'Rock Salt', 'Roboto', Arial, Helvetica;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 .logo {
     width: 80px;
 }
 
 #logo_link {
-    padding-top: 5px;
     padding-top: 5px;
     justify-self: center;
     align-self: center;
@@ -223,8 +229,106 @@ footer .social img {
     padding-top: 15px;
 }
 
+#faqwrapper {
+    display: grid;
+    margin-left: 50px;
+    padding-top: 25px;
+    max-width: 1600px;
+    grid-column: 1/10;
+    margin-bottom: -150px;
+}
+
+#quest1 {
+    font-weight: bold;
+}
+
+#resp1 {
+    grid-row: 2/3;
+    margin-left: 35px;
+    font-weight: normal;
+}
+
+#quest2 {
+    grid-row: 3/4;
+    font-weight: bold;
+}
+
+#resp2 {
+    grid-row: 4/5;
+    margin-left: 35px;
+    font-weight: normal;
+}
+
+#quest2b {
+    grid-row: 5/6;
+    font-weight: bold;
+}
+
+#resp2b {
+    grid-row: 6/7;
+    margin-left: 35px;
+    font-weight: normal;
+}
+
+#quest3 {
+    grid-row: 7/8;
+    font-weight: bold;
+}
+
+#resp3 {
+    grid-row: 8/9;
+    margin-left: 35px;
+    font-weight: normal;
+}
+
+#quest3b {
+    grid-row: 9/10;
+    font-weight: bold;
+}
+
+#resp3b {
+    grid-row: 10/11;
+    margin-left: 35px;
+    font-weight: normal;
+}
+#quest4 {
+    grid-row: 11/12;
+    font-weight: bold;
+}
+
+#resp4 {
+    grid-row: 12/13;
+    margin-left: 35px;
+    font-weight: normal;
+}
+
+#quest5 {
+    grid-row: 13/14;
+    font-weight: bold;
+}
+
+#resp5 {
+    grid-row: 14/15;
+    margin-left: 35px;
+    font-weight: normal;
+}
+
+#quest6 {
+    grid-row: 15/16;
+    font-weight: bold;
+}
+
+#resp6 {
+    grid-row: 16/17;
+    margin-left: 35px;
+    font-weight: normal;
+}
+
+
+
+
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .faq-grid {
         display: block;
         height: auto;
     }
@@ -248,6 +352,9 @@ footer .social img {
         color: #6f7364;
     }
     .home-title {
+        font-size: 25px;
+    }
+    .faq-title {
         font-size: 25px;
     }
     .rivers-card, .camping-card, .rapids-card { 
