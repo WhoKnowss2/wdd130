@@ -30,6 +30,17 @@ header {
     padding: 0;
 }
 
+.cater-title {
+    color:#732002;
+    font-family: 'Corinthia', 'Noto', Arial, Helvetica;
+    font-size: 5.5vw;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
 .logo {
     width: 100px;
 }
@@ -96,6 +107,17 @@ main section {
     padding-right: 60px;
 }
 
+#cater-msg {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 25px;
+    padding-left: 65px;
+    padding-right: 65px;
+    text-align: center;
+}
+
 #shop {
     box-shadow: 5px 5px 10px #6f7364;
     display: block;
@@ -130,20 +152,30 @@ main section {
   /* Bottom center text */
   .text-block2 {
     position: absolute;
-    bottom: 0;
-    margin-left: 38.3%;
     background-color: rgba(0, 0, 0, .5);
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 11px;
+    font-size: 13px;
     text-align: center;
-    box-sizing: border-box;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     margin-top: 0;
   }
 
 
 #invite {
+    color:#732002;
+    font-family: 'Corinthia', 'Noto', Arial, Helvetica;
+    font-size: 5vw;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.choose {
     color:#732002;
     font-family: 'Corinthia', 'Noto', Arial, Helvetica;
     font-size: 5vw;
@@ -159,6 +191,18 @@ main section {
     padding-bottom: 10px;
 }
 
+#reasons {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 10px;
+}
+
+#services {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 10px;
+}
+
 #join {
     padding-left: 60px;
     padding-right: 60px;
@@ -170,6 +214,33 @@ main section {
 
 .bakers {
     font-weight: 550;
+}
+
+.reason-item {
+    font-weight: 550;
+}
+
+#cater-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+#cater-img {
+    max-width: 276px;
+    max-height: 414px;
+}
+
+#intouch {
+    display: inline-block;
+    max-width: 445px;
+    text-align: center;
+    padding-left: 65px;
+    padding-right: 65px;
+    font-size: 17px;
+    vertical-align: middle;
+    margin-top: 10px;
 }
 
 hr {
