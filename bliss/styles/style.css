@@ -58,7 +58,7 @@ nav a:hover{
 }
 
 #hero {
-    display: grid;
+    /** display: grid; **/
     grid-template-columns: 1fr 3fr 1fr;
 }
 
@@ -104,11 +104,44 @@ main section {
     width: 50%;
 }
 
-#address {
+/* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+  }
+
+/* Container holding the image and the text */
+.container2 {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  
+  /* Bottom center text */
+  .text-block2 {
+    position: absolute;
+    bottom: 0;
+    margin-left: 38.3%;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 11px;
     text-align: center;
-    font-weight: 700;
-    padding-bottom: 15px;
-}
+    box-sizing: border-box;
+    margin-top: 0;
+  }
+
 
 #invite {
     color:#732002;
