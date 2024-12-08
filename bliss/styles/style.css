@@ -229,8 +229,7 @@ main section {
 }
 
 #cater-img {
-    max-width: 276px;
-    max-height: 414px;
+    width: 400px;
     border-radius: 8px;
     box-shadow: 3px 3px 5px #6f7364;
 }
