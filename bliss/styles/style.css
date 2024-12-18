@@ -159,6 +159,18 @@ main section {
     font-size: 12px;
   }
 
+  /* Centered text */
+.contactus-title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Corinthia', 'Noto', Arial, Helvetica;
+    font-size: 8vw;
+    font-weight: 500;
+  }
+
 /* Container holding the image and the text */
 .container2 {
     position: relative;
